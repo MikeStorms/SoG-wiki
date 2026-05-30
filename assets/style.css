@@ -419,6 +419,75 @@ footer {
   font-family: 'Noto Sans', sans-serif;
 }
 
+/* ─── AFBEELDINGEN ─── */
+figure.wiki-image {
+  float: right;
+  clear: right;
+  margin: 0 0 24px 32px;
+  width: 240px;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--vermilion);
+  background: var(--paper-dark);
+}
+
+figure.wiki-image img {
+  width: 100%;
+  display: block;
+}
+
+figure.wiki-image figcaption {
+  padding: 7px 10px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+}
+
+/* ─── AFBEELDINGEN ─── */
+figure.wiki-image {
+  float: right;
+  clear: right;
+  margin: 0 0 24px 32px;
+  width: 240px;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--vermilion);
+  background: var(--paper-dark);
+}
+
+figure.wiki-image img {
+  width: 100%;
+  display: block;
+}
+
+figure.wiki-image figcaption {
+  padding: 7px 10px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+}
+figure.wiki-image-wide {
+  margin: 28px 0;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--vermilion);
+  background: var(--paper-dark);
+}
+
+figure.wiki-image-wide img {
+  width: 100%;
+  display: block;
+}
+
+figure.wiki-image-wide figcaption {
+  padding: 7px 10px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+}
 /* Responsive */
 @media (max-width: 900px) {
   :root { --sidebar-width: 220px; }
