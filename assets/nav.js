@@ -43,7 +43,7 @@ function renderNav(currentId) {
     <div class="sidebar-header">
       <div class="sidebar-logo">Spelersgids</div>
       <div class="sidebar-title">De Season of Ghosts Player Wiki</div>
-      <div class="sidebar-subtitle">Season of Ghosts — Pathfinder 2e</div>
+      <div class="sidebar-subtitle"> Pathfinder 2e - GM Mike Storms</div>
     </div>
     <div class="sidebar-divider"></div>
     <nav>
